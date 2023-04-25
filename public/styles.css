@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#root{
+    display: flex;
+    height: 650px;
+    width: 1200px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    margin: auto;
+    background-color: #535454;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* justify-content: space-between; */
+}
+
+#outerContainer{
+    display: flex;
+    height: 100%;
+    width: 800px;
+    background-color: rgb(24, 23, 23);
+    border-radius: 30px;
+}
+
+#info{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 383px;
+    background-color: #535454;
+    
+    border-radius: 30px;
+    margin: auto;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#myImage{
+    height: 200px;
+    width: 200px;
+    border:2px solid white;
+    border-radius: 50%;
+    margin: 50px 30px 20px 30px;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font: 0.8em sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-family:'Open Sans', 'Courier New', Courier, monospace;
+}
+#details h1{
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+#details h2{
+    margin-top: 5px;
+    font-weight: 100;
+}
+#socialMedia{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#socialMedia a{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border-radius: 50%;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+#linkedIn:hover{
+    background-color: #0A66C2;
+}
+#twitter:hover{
+    background-color: rgb(77, 185, 227);
+    /* transition: all; */
+}
+#git:hover{
+    background-color: black;
+    /* transition: all; */
+}
